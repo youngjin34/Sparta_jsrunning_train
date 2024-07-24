@@ -1,10 +1,11 @@
 const scores = [36, 62, 72, 55, 86, 95, 92, 48, 81];
 
-function 함수명(scores) {
-  return scores.map((score) => score + 3);
+function plusScores(scores) {
+  return scores.map((score) => { return score + 3 }
+  );
 }
 
-const newScore = 함수명(scores);
+const newScore = plusScores(scores);
 
 
 console.log(scores);

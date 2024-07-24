@@ -1,8 +1,7 @@
 function calculator(num1, o, num2) {
   switch (o) {
     case "+":
-      return num1 + num2
-      break;
+      return num1 + num2;
     case "-":
       return num1 - num2;
     case "*":

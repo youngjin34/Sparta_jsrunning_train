@@ -1,5 +1,5 @@
 
-function 함수명(num) {
+function isEvenOrOdd(num) {
   if (num % 2 === 0) {
     return "짝수";
   } else {
@@ -7,5 +7,5 @@ function 함수명(num) {
   }
 }
 
-console.log(함수명(10)); // 결과값 "짝수";
-console.log(함수명(7)); // 결과값 "홀수";
+console.log(isEvenOrOdd(10)); // 결과값 "짝수";
+console.log(isEvenOrOdd(7)); // 결과값 "홀수";
